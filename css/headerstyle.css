@@ -1,0 +1,35 @@
+ body{
+    background-image:url("/pics/bluebgc.jpg");
+    width:"100%";
+
+}
+.logo{
+    position: fixed;
+    left:30px;
+    top:30px;
+}
+
+/*
+.menu{
+    display: block;
+    position: fixed;
+    right: 170px;
+    top: 32px;
+    height: 42px;
+    width: 42px;
+    line-height: 42px;
+    font-family:"montserrat-regular,sans-serif";
+    text-decoration: uppercase;
+    font-size: 30px;
+    letter-spacing: 0.2rem;
+    color: rgba(255,255,255);
+    border:"1px";
+}    
+.menu-icon{
+    display: block;
+    position: fixed;
+    right: 55px;
+    top: 32px;
+    height: 42px;
+    width: 42px;
+    } */
