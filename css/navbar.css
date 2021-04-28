@@ -1,0 +1,106 @@
+
+body {
+  font-family: "Lato", sans-serif;
+}
+
+.menutab{
+	/* position: relative;
+    left: 550px; */
+    position: fixed;
+    right: 32px;
+    top: 38px;
+    height: 42px;
+    /* width: 42px; */
+    line-height: 42px;
+    font-family: "montserrat-regular", sans-serif;
+    /* font-size: 1.4rem; */
+    text-transform: uppercase;
+    letter-spacing: 0.2rem;
+    cursor: pointer;
+}
+
+.menutab .txt{
+  color: #818181;
+  font-size: 18px;
+  /* padding-bottom: 0px; */
+  position: relative;
+  top: -2px; 
+}
+
+.menu{
+  color: rgba(255, 255, 255,1);
+  font-size: 28px;
+}
+
+.sidenav {
+    background: #0c0c0c;
+    color: rgba(255, 255, 255, 0.25);
+    height: 100%;
+    width: 0;
+    padding: 3.6rem 3rem;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: -95px;
+    overflow-x: hidden;
+    /* transition: 0.5s; */
+    padding-top: 60px;
+}
+
+.contents{
+    margin-left: -18px;
+    margin-right: 30px;
+    width: 192px;
+}
+
+.sidenav h3{
+    color: white;
+    font-family: "montserrat-regular", sans-serif;
+    font-size: 1.5rem;
+    line-height: 1.5;
+    
+    padding: 0.5rem 0rem;
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+.sidenav a {
+    font-family: "montserrat-regular", sans-serif;
+    margin-bottom: 20px;
+  /* padding: 8px 8px 8px 32px; */
+  text-align: left;
+  text-decoration: none;
+  font-size: 1.2rem;
+  color: #818181;
+  display: block;
+  /* transition: 0.3s; */
+}
+
+.sidenav a:hover, .menutab .txt:hover {
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  /* position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px; */
+  cursor: pointer;
+  display: block;
+  position: relative;
+  top: -80px;
+  right: -130px;
+  font-size: 22px;
+  /* margin-left: 88px; */
+  color: white;
+  height: 30px;
+  width: 30px;
+}
+
+
+/* Media Query for Mobile devices */
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
